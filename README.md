@@ -15,10 +15,35 @@
 
 ## 部署
 
-单文件静态页，无外部依赖（无 CDN、无字体、无脚本引用）。
+单文件静态页，无外部依赖（无 CDN、无字体、无脚本引用）。仓库根目录的 `index.html` 即站点入口。
 
-- 仓库根目录的 `index.html` 即站点入口
-- 适用于任意静态托管（EdgeOne Pages / GitHub Pages / Cloudflare Pages / 对象存储）
+### 当前线上地址
+
+| 平台 | 地址 | 性质 |
+|---|---|---|
+| GitHub Pages | <https://manito3630.github.io/cas-ime-2027-job-guide/> | 永久，随 `main` 分支自动重建 |
+| EdgeOne Makers | 见腾讯云控制台 → EdgeOne Makers 项目 `cas-ime-2027-job-guide` | 需先登录部署（命令见下） |
+
+### EdgeOne Makers 部署
+
+```bash
+# 首次：浏览器授权登录（token 会写入本机凭证）
+npx edgeone@1.7.2 login
+
+# 部署当前目录到 production 环境
+npx edgeone@1.7.2 pages deploy . -n cas-ime-2027-job-guide -e production
+
+# 非交互 / CI：用控制台生成的 API Token
+npx edgeone@1.7.2 pages deploy . -n cas-ime-2027-job-guide -t "$EDGEONE_PAGES_API_TOKEN" --json
+```
+
+- 项目须为「直接上传」类型（direct upload），才能在本地命令行重复部署
+- `-e preview` 可发布预览环境，不影响 production
+- 匿名部署（`--anonymous`）生成的临时项目需在 1 小时内认领，否则自动删除，不适合作为长期地址
+
+### GitHub Pages 部署
+
+仓库 Settings → Pages → Source 选 `Deploy from a branch`，分支 `main`、目录 `/`。推送到 `main` 即自动发布。
 
 ## 说明
 
