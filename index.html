@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2027届毕业生就业攻略 · 一图 + 时间线 + 任务清单</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231b4b8f'/%3E%3Ctext x='16' y='23' font-size='17' text-anchor='middle' fill='%23fff' font-family='sans-serif'%3E27%3C/text%3E%3C/svg%3E">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#eef2f8; --card:#fff; --ink:#17212f;
+  --ink2:#48586e; --ink3:#7a8798; --line:#dfe6f0;
+  --cA:#1b4b8f; --cA-l:#e8f0fa;
+  --cB:#0d7a57; --cB-l:#e6f5ef;
+  --cC:#b0620a; --cC-l:#fdf2e3;
+  --cD:#6b3fa0; --cD-l:#f1ecfa;
+  --red:#b4232a; --red-l:#fbe9ea;
+}
+html{scroll-behavior:smooth;scroll-padding-top:74px}
+body{background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif;
+  font-size:14px;line-height:1.62;-webkit-font-smoothing:antialiased}
+a{color:var(--cA);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* ---------- topbar ---------- */
+.topbar{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line)}
+.topbar-in{max-width:1320px;margin:0 auto;padding:0 20px;height:58px;display:flex;align-items:center;gap:18px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:14.5px;white-space:nowrap}
+.brand .dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,#163a70,#2a6fc4);
+  color:#fff;display:grid;place-items:center;font-size:12px;font-weight:700;letter-spacing:-.5px}
+.brand small{font-weight:400;color:var(--ink3);font-size:12px;margin-left:2px}
+.tabs{display:flex;gap:2px;margin-left:6px;flex:1;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs a{padding:7px 13px;border-radius:8px;color:var(--ink2);font-size:13.5px;white-space:nowrap;transition:.15s}
+.tabs a:hover{background:#eef3fb;text-decoration:none;color:var(--cA)}
+.tabs a.on{background:var(--cA);color:#fff}
+.kn-btn{display:flex;align-items:center;gap:7px;border:1px solid var(--cA);background:var(--cA-l);color:var(--cA);
+  padding:7px 13px;border-radius:9px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;transition:.15s}
+.kn-btn:hover{background:var(--cA);color:#fff}
+.kn-btn .ping{width:6px;height:6px;border-radius:50%;background:var(--red);box-shadow:0 0 0 0 rgba(180,35,42,.5);
+  animation:ping 1.8s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(180,35,42,.45)}70%{box-shadow:0 0 0 7px rgba(180,35,42,0)}100%{box-shadow:0 0 0 0 rgba(180,35,42,0)}}
+.kn-btn b{background:#fff;border-radius:6px;padding:0 5px;font-size:11.5px;line-height:16px;color:var(--red)}
+
+/* ---------- layout ---------- */
+main{max-width:1320px;margin:0 auto;padding:0 20px 90px}
+section{padding-top:34px}
+.sec-head{display:flex;align-items:flex-end;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.sec-head h2{font-size:20px;letter-spacing:-.2px}
+.sec-head .no{font-family:ui-monospace,Consolas,monospace;font-size:12px;color:#fff;background:var(--cA);
+  border-radius:6px;padding:1px 7px;transform:translateY(-2px)}
+.sec-head p{color:var(--ink3);font-size:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 1px 2px rgba(23,33,47,.04)}
+.note{font-size:12.5px;color:var(--ink3)}
+
+/* ---------- overview / 一图 ---------- */
+.poster{padding:24px 26px 26px;background:
+  radial-gradient(1200px 300px at 8% -10%,#e6effc 0%,transparent 60%),
+  radial-gradient(900px 260px at 95% -10%,#eaf6f1 0%,transparent 55%),#fff;}
+.poster-h{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;
+  border-bottom:1px dashed var(--line);padding-bottom:16px;margin-bottom:20px}
+.poster-h h1{font-size:24px;letter-spacing:-.4px;line-height:1.3}
+.poster-h h1 span{color:var(--cA)}
+.poster-h .src{font-size:12px;color:var(--ink3);margin-top:6px}
+.poster-h .stamp{text-align:right;font-size:12px;color:var(--ink3);line-height:1.9}
+.poster-h .stamp b{font-family:ui-monospace,Consolas,monospace;color:var(--ink);font-size:16px}
+.pgrid{display:grid;grid-template-columns:1.05fr 1fr 1.1fr;gap:18px}
+.pbox{border:1px solid var(--line);border-radius:12px;padding:14px 15px;background:#fcfdff}
+.pbox h3{font-size:12px;letter-spacing:.12em;color:var(--ink3);text-transform:uppercase;margin-bottom:12px;
+  display:flex;align-items:center;gap:7px}
+.pbox h3::before{content:"";width:3px;height:12px;border-radius:2px;background:var(--cA)}
+.pbox.b h3::before{background:var(--cB)} .pbox.c h3::before{background:var(--cC)} .pbox.d h3::before{background:var(--cD)}
+
+.step{display:grid;grid-template-columns:26px 1fr;gap:10px;position:relative;padding-bottom:13px}
+.step:last-child{padding-bottom:0}
+.step:not(:last-child)::after{content:"";position:absolute;left:12.5px;top:26px;bottom:0;width:1.5px;background:var(--line)}
+.step i{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-style:normal;font-size:12.5px;
+  font-weight:700;color:#fff;background:var(--cA);z-index:1}
+.step.s2 i{background:var(--cB)} .step.s3 i{background:var(--cC)}
+.step .t{font-weight:600;font-size:13.5px;line-height:1.4}
+.step .d{font-size:12.5px;color:var(--ink2);margin-top:2px}
+.step .d em{font-style:normal;color:var(--red);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-size:12.5px;padding:5px 10px;border-radius:8px;background:var(--red-l);color:var(--red);font-weight:600;
+  border:1px solid #f3d4d6}
+.chip.g{background:#eef3fb;color:var(--cA);border-color:#d8e4f6}
+.people{display:grid;gap:8px}
+.person{display:grid;grid-template-columns:auto 1fr;gap:9px;align-items:start;font-size:12.5px}
+.person .av{width:24px;height:24px;border-radius:7px;background:var(--cA-l);color:var(--cA);display:grid;place-items:center;
+  font-size:11.5px;font-weight:700}
+.person b{font-size:13px}
+.person .k{color:var(--ink3)}
+.mono{font-family:ui-monospace,Consolas,monospace;font-size:12px}
+.kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}
+.kpi div{background:#f7faff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.kpi b{display:block;font-family:ui-monospace,Consolas,monospace;font-size:19px;line-height:1.2;color:var(--cA)}
+.kpi span{font-size:11.5px;color:var(--ink3)}
+
+/* ---------- timeline ---------- */
+.tl-wrap{padding:18px 18px 8px;overflow-x:auto}
+.tl{min-width:1080px}
+.tl-months{display:grid;grid-template-columns:186px repeat(16,minmax(50px,1fr));align-items:end;
+  border-bottom:1px solid var(--line);padding-bottom:6px;margin-bottom:8px}
+.tl-months .m{font-size:11px;color:var(--ink3);text-align:center;font-family:ui-monospace,Consolas,monospace;position:relative}
+.tl-months .m.q{color:var(--ink2);font-weight:600}
+.tl-months .m.now{color:var(--cA);font-weight:700}
+.tl-months .m.now::after{content:"";position:absolute;left:50%;bottom:-8px;width:1px;height:8px;background:var(--cA)}
+.tl-year{font-size:11px;color:#9aa6b6;letter-spacing:.1em;padding-bottom:2px}
+.tl-row{display:grid;grid-template-columns:186px repeat(16,minmax(50px,1fr));align-items:center;
+  border-bottom:1px dashed #eef2f8;min-height:38px}
+.tl-row:hover{background:#fafcff}
+.tl-label{font-size:12.5px;color:var(--ink);padding-right:10px;line-height:1.35;display:flex;align-items:center;gap:6px}
+.tl-label .tag{font-size:10px;padding:0 4px;border-radius:4px;background:#f0f3f8;color:var(--ink3);font-weight:400;white-space:nowrap}
+.tl-label .tag.inf{background:#fff7e8;color:#9a6a10;border:1px dashed #e8c98a}
+.bar{height:22px;border-radius:6px;display:flex;align-items:center;justify-content:center;
+  color:#fff;font-size:11px;font-weight:600;cursor:pointer;position:relative;transition:.16s;overflow:hidden}
+.bar:hover{filter:brightness(1.08);transform:translateY(-1px);box-shadow:0 3px 10px rgba(23,33,47,.14)}
+.bar>span{position:relative;z-index:1;letter-spacing:.06em;text-shadow:0 1px 2px rgba(0,0,0,.18)}
+.bar.a{background:linear-gradient(90deg,#1b4b8f,#2f6ab5)}
+.bar.b{background:linear-gradient(90deg,#0d7a57,#159b70)}
+.bar.c{background:linear-gradient(90deg,#b0620a,#d0812a)}
+.bar.d{background:linear-gradient(90deg,#6b3fa0,#8a63bd)}
+.bar.hatch::before{content:"";position:absolute;inset:0;border-radius:6px;pointer-events:none;
+  background:repeating-linear-gradient(45deg,rgba(255,255,255,.30) 0 5px,transparent 5px 11px)}
+.bar .milestone{position:absolute;right:3px;top:50%;transform:translateY(-50%);width:0;height:0;
+  border-left:7px solid #fff;border-top:5px solid transparent;border-bottom:5px solid transparent;opacity:.9}
+.tl-foot{display:flex;gap:16px;flex-wrap:wrap;padding:10px 4px 4px;font-size:12px;color:var(--ink3)}
+.lg{display:flex;align-items:center;gap:6px}
+.lg i{width:16px;height:8px;border-radius:3px;display:block}
+.tl-now-tip{font-size:12px;color:var(--ink3);padding:0 4px 12px}
+
+/* ---------- directions ---------- */
+.dir-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));gap:14px;align-items:start}
+.dir{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.dir-h{padding:14px 16px 12px;border-bottom:1px solid var(--line);display:flex;align-items:flex-start;gap:10px;cursor:pointer}
+.dir-h .ic{width:32px;height:32px;border-radius:9px;display:grid;place-items:center;font-size:15px;flex:none}
+.dir-h .tt{flex:1}
+.dir-h .tt b{font-size:14.5px;display:block;line-height:1.35}
+.dir-h .tt span{font-size:12px;color:var(--ink3)}
+.dir-h .cv{color:var(--ink3);font-size:11px;transition:.2s;margin-top:4px}
+.dir.open .dir-h .cv{transform:rotate(180deg)}
+.dir-b{display:none;padding:0 16px 16px}
+.dir.open .dir-b{display:block}
+.dir dl{margin-top:12px;display:grid;grid-template-columns:64px 1fr;gap:6px 10px;font-size:13px}
+.dir dt{color:var(--ink3);font-size:12.5px}
+.dir dd{color:var(--ink2)}
+.dir dd b{color:var(--ink)}
+.dir ul{margin:6px 0 0 0;padding-left:16px;font-size:13px;color:var(--ink2)}
+.dir ul li{margin:3px 0}
+.warn{margin-top:12px;background:var(--red-l);border:1px solid #f4d6d8;border-radius:9px;padding:9px 11px;font-size:12.5px;color:#8a1c22}
+.warn b{color:var(--red)}
+.ok{background:var(--cB-l);border-color:#cfeade;color:#0a5c42}
+.ok b{color:var(--cB)}
+.dir .flow{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.dir .flow span{font-size:11.5px;background:#f2f6fc;border:1px solid #e0e8f4;color:var(--ink2);
+  padding:3px 8px;border-radius:6px;position:relative}
+.dir .flow span:not(:last-child)::after{content:"›";position:absolute;right:-8px;color:#a9b6c8}
+
+/* ---------- tasks ---------- */
+.tk-top{display:flex;align-items:center;gap:14px;padding:14px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.ring{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;flex:none;
+  background:conic-gradient(var(--cB) calc(var(--p)*1%),#e9eef6 0)}
+.ring i{width:40px;height:40px;background:#fff;border-radius:50%;display:grid;place-items:center;
+  font-style:normal;font-size:11.5px;font-weight:700;color:var(--cB)}
+.tk-top .tt b{font-size:14px}
+.tk-top .tt div{font-size:12.5px;color:var(--ink3)}
+.tk-actions{margin-left:auto;display:flex;gap:8px}
+.btn{border:1px solid var(--line);background:#fff;color:var(--ink2);border-radius:8px;padding:6px 11px;
+  font-size:12.5px;cursor:pointer;transition:.15s}
+.btn:hover{border-color:var(--cA);color:var(--cA)}
+.btn.primary{background:var(--cA);border-color:var(--cA);color:#fff}
+.btn.primary:hover{filter:brightness(1.08);color:#fff}
+.tk-group{padding:6px 0 2px}
+.tk-gh{padding:10px 16px 6px;font-size:12px;letter-spacing:.06em;color:var(--ink3);display:flex;align-items:center;gap:8px}
+.tk-gh b{color:var(--ink);font-size:13px;letter-spacing:0}
+.tk-gh .ln{flex:1;height:1px;background:var(--line)}
+.tk-item{display:grid;grid-template-columns:20px 1fr auto;gap:10px;padding:9px 16px;align-items:start;
+  border-left:3px solid transparent}
+.tk-item:hover{background:#fafcff}
+.tk-item.done{background:#f7fbf9}
+.tk-item.key{border-left-color:var(--red)}
+.tk-item input{appearance:none;width:17px;height:17px;border:1.5px solid #c2cddd;border-radius:5px;margin-top:2px;
+  cursor:pointer;position:relative;background:#fff;flex:none}
+.tk-item input:checked{background:var(--cB);border-color:var(--cB)}
+.tk-item input:checked::after{content:"";position:absolute;left:5px;top:1.5px;width:4px;height:9px;
+  border:solid #fff;border-width:0 2px 2px 0;transform:rotate(42deg)}
+.tk-item .tx{font-size:13.5px;line-height:1.5;display:block}
+.tk-item.done .tx{color:var(--ink3);text-decoration:line-through;text-decoration-color:#b9c6d6}
+.tk-item .mt{font-size:12px;color:var(--ink3);margin-top:2px;display:block;line-height:1.45}
+.tk-item .due{font-size:11.5px;white-space:nowrap;padding:2px 7px;border-radius:6px;background:#f3f6fb;
+  color:var(--ink2);font-family:ui-monospace,Consolas,monospace;margin-top:2px}
+.tk-item .due.hot{background:var(--red-l);color:var(--red);font-weight:600}
+
+/* ---------- forms ---------- */
+.fm-tabs{display:flex;gap:6px;padding:12px 14px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.fm-tabs button{border:1px solid var(--line);background:#fff;color:var(--ink2);padding:7px 13px;border-radius:9px;
+  font-size:13px;cursor:pointer;transition:.15s}
+.fm-tabs button.on{background:var(--cA);border-color:var(--cA);color:#fff}
+.fm-body{padding:18px}
+.fm-pane{display:none} .fm-pane.on{display:block}
+.fsheet{border:1px solid #cfd9e6;border-radius:10px;overflow:hidden;background:#fff;max-width:960px;margin:0 auto}
+.fsheet-h{background:#f4f7fc;border-bottom:1px solid #cfd9e6;padding:12px 14px;text-align:center}
+.fsheet-h b{font-size:15px;letter-spacing:.06em}
+.fsheet-h div{font-size:11.5px;color:var(--ink3);margin-top:2px}
+.frow{display:grid;grid-template-columns:118px 1fr;border-bottom:1px solid #e4ebf4}
+.frow:last-child{border-bottom:0}
+.frow .k{background:#fafcff;border-right:1px solid #e4ebf4;padding:8px 10px;font-size:12.5px;color:var(--ink2);
+  display:flex;align-items:center;line-height:1.35}
+.frow .v{padding:6px 10px}
+.frow input,.frow textarea{width:100%;border:0;background:transparent;font:inherit;font-size:13.5px;color:var(--cA);
+  font-weight:600;padding:4px 2px;outline:none;border-bottom:1px dashed transparent;transition:.15s}
+.frow input:focus,.frow textarea:focus{border-bottom-color:var(--cA);background:#f7fbff}
+.frow input.fixed{color:var(--ink);font-weight:500}
+.fsec{background:#eef3fa;padding:6px 12px;font-size:12px;font-weight:700;color:var(--cA);
+  border-bottom:1px solid #e4ebf4;letter-spacing:.04em}
+.fnote{margin-top:12px;display:grid;gap:8px;max-width:960px;margin-left:auto;margin-right:auto}
+.fnote div{font-size:12.5px;color:var(--ink2);background:#fafcff;border:1px solid var(--line);border-radius:9px;padding:9px 11px}
+.fnote b{color:var(--ink)}
+.fnote .hd{color:var(--red);font-weight:700}
+.fm-tip{margin-top:12px;font-size:12.5px;color:var(--ink3);max-width:960px;margin-left:auto;margin-right:auto}
+
+/* ---------- drawer ---------- */
+.mask{position:fixed;inset:0;background:rgba(16,24,38,.42);opacity:0;pointer-events:none;transition:.2s;z-index:70}
+.mask.on{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;height:100%;width:420px;max-width:92vw;background:#fff;z-index:80;
+  transform:translateX(102%);transition:transform .26s cubic-bezier(.4,0,.2,1);display:flex;flex-direction:column;
+  box-shadow:-12px 0 40px rgba(16,24,38,.18)}
+.drawer.on{transform:none}
+.drawer-h{padding:16px 18px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
+.drawer-h b{font-size:15px}
+.drawer-h .x{margin-left:auto;border:0;background:#f3f6fb;width:28px;height:28px;border-radius:8px;cursor:pointer;
+  color:var(--ink2);font-size:16px;line-height:1}
+.drawer-b{padding:12px 18px 30px;overflow-y:auto}
+.kn{display:grid;grid-template-columns:54px 1fr;gap:12px;padding:11px 0;border-bottom:1px dashed #eef2f8}
+.kn:last-child{border-bottom:0}
+.kn .d{text-align:center;font-family:ui-monospace,Consolas,monospace}
+.kn .d b{display:block;font-size:17px;line-height:1.1;color:var(--ink)}
+.kn .d span{font-size:10.5px;color:var(--ink3)}
+.kn .c b{font-size:13.5px;display:block;line-height:1.4}
+.kn .c p{font-size:12.5px;color:var(--ink2);margin-top:2px}
+.kn .cd{display:inline-block;font-size:11px;padding:1px 6px;border-radius:5px;margin-top:5px;
+  background:#eef3fb;color:var(--cA);font-weight:600;font-family:ui-monospace,Consolas,monospace}
+.kn .cd.hot{background:var(--red-l);color:var(--red)}
+.kn .cd.past{background:#f2f4f8;color:var(--ink3);font-weight:400}
+.kn.urgent .d b{color:var(--red)}
+
+/* ---------- modal ---------- */
+.modal{position:fixed;inset:0;z-index:90;display:none;align-items:center;justify-content:center;padding:24px}
+.modal.on{display:flex}
+.modal .box{background:#fff;border-radius:16px;max-width:720px;width:100%;max-height:86vh;overflow:auto;
+  box-shadow:0 24px 70px rgba(16,24,38,.3);animation:pop .18s ease-out}
+@keyframes pop{from{transform:translateY(10px) scale(.99);opacity:.6}to{transform:none;opacity:1}}
+.modal .mh{padding:16px 20px;border-bottom:1px solid var(--line);display:flex;align-items:flex-start;gap:12px}
+.modal .mh .bar2{width:5px;border-radius:3px;align-self:stretch}
+.modal .mh b{font-size:16px;display:block;line-height:1.35}
+.modal .mh span{font-size:12.5px;color:var(--ink3)}
+.modal .mh .x{margin-left:auto;border:0;background:#f3f6fb;width:28px;height:28px;border-radius:8px;cursor:pointer;
+  color:var(--ink2);font-size:16px}
+.modal .mb{padding:16px 20px 20px}
+.modal h4{font-size:12px;letter-spacing:.1em;color:var(--ink3);margin:14px 0 6px}
+.modal h4:first-child{margin-top:0}
+.modal ul{padding-left:18px;font-size:13.5px;color:var(--ink2)}
+.modal ul li{margin:4px 0}
+.modal .src{margin-top:16px;font-size:12px;color:var(--ink3);border-top:1px dashed var(--line);padding-top:10px}
+.modal .badge{display:inline-block;font-size:11px;padding:1px 7px;border-radius:5px;background:#fff7e8;
+  color:#9a6a10;border:1px dashed #e8c98a;margin-left:6px;vertical-align:1px}
+
+footer{max-width:1320px;margin:0 auto;padding:26px 20px 60px;color:var(--ink3);font-size:12px;line-height:1.9;
+  border-top:1px solid var(--line)}
+footer b{color:var(--ink2)}
+
+@media (max-width:1080px){
+  .pgrid{grid-template-columns:1fr 1fr}
+  .kpi{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:760px){
+  .pgrid{grid-template-columns:1fr}
+  .dir-grid{grid-template-columns:1fr}
+  .brand small{display:none}
+  .topbar-in{height:auto;flex-wrap:wrap;gap:8px;padding:8px 14px}
+  .tabs{order:3;flex-basis:100%;margin:0}
+  .tabs a{padding:6px 10px;font-size:13px}
+  .kn-btn{margin-left:auto;font-size:12px;padding:6px 10px}
+  .poster{padding:18px 16px}
+  .poster-h h1{font-size:20px}
+  .poster-h .stamp{text-align:left;font-size:11.5px}
+  .tl-label{font-size:12px}
+  .frow{grid-template-columns:96px 1fr}
+  .modal{padding:10px}
+  .drawer{width:100%}
+}
+@media print{
+  .topbar,.drawer,.mask,.modal,.tk-actions,.fm-tabs,.sec-head .no{display:none!important}
+  body{background:#fff}
+  .card{box-shadow:none;border-color:#c9d4e2}
+  section{padding-top:0;page-break-inside:avoid}
+  .fm-pane{display:block!important;page-break-after:always}
+  .frow input{border-bottom:1px dotted #b9c6d6}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brand"><span class="dot">27</span>微电子所 2027 届就业攻略<span><small>操作版</small></span></div>
+    <nav class="tabs" id="tabs">
+      <a href="#overview" class="on">一图总结</a>
+      <a href="#timeline">时间线</a>
+      <a href="#directions">方向与注意</a>
+      <a href="#tasks">任务清单</a>
+      <a href="#forms">表格模板</a>
+    </nav>
+    <button class="kn-btn" id="knBtn"><span class="ping"></span>关键时间节点<b id="knBadge">6</b></button>
+  </div>
+</div>
+
+<main>
+
+<!-- ============ 1. 一图总结 ============ -->
+<section id="overview">
+  <div class="sec-head">
+    <h2>一图总结</h2><span class="no">01</span>
+    <p>三个必填环节 · 一条领取路径 · 六条硬规则 · 四个联系人</p>
+  </div>
+
+  <div class="card poster">
+    <div class="poster-h">
+      <div>
+        <h1>2027 届毕业就业 · <span>看这一张</span></h1>
+        <div class="src">依据《中国科学院微电子研究所 27 届教育处学籍毕业生就业攻略》（金山文档，作者：江湖百晓生，末次更新 2026-11-02）整理</div>
+      </div>
+      <div class="stamp">
+        批次 <b>2027</b>　毕业时间 <b>2027.06</b><br>
+        现场办理日 <b>每周四</b> 11:30–14:30<br>
+        办理地点 <b>A 座 4F 401-1</b>（东北角）
+      </div>
+    </div>
+
+    <div class="pgrid">
+      <!-- 左：三个环节 -->
+      <div class="pbox">
+        <h3>三个必填环节（按节点）</h3>
+        <div class="step">
+          <i>1</i>
+          <div>
+            <div class="t">预毕业信息填报<span style="font-weight:400;color:var(--ink3);font-size:12px"> · 含定向生</span></div>
+            <div class="d"><b>2026-09-20</b> 开始 → <em>2026-12-27 截止</em>；审核通过才能进下一步</div>
+          </div>
+        </div>
+        <div class="step s2">
+          <i>2</i>
+          <div>
+            <div class="t">申请就业推荐表<span style="font-weight:400;color:var(--ink3);font-size:12px"> · 定向生除外</span></div>
+            <div class="d"><b>2026-10-22</b> 开始；有无签约意向都可填，填完到现场审核领取</div>
+          </div>
+        </div>
+        <div class="step s3">
+          <i>3</i>
+          <div>
+            <div class="t">申请三方协议<span style="font-weight:400;color:var(--ink3);font-size:12px"> · 定向生除外</span></div>
+            <div class="d"><b>2026-10-22</b> 开始；附件必须是录用通知（邮件截图 / 书面扫描件）</div>
+          </div>
+        </div>
+        <div class="kpi">
+          <div><b>12-27</b><span>预毕业截止</span></div>
+          <div><b>10-22</b><span>申领开放</span></div>
+          <div><b>1 份</b><span>推荐表/三方</span></div>
+          <div><b>1 次</b><span>毁约上限</span></div>
+        </div>
+      </div>
+
+      <!-- 中：领取三步 + 办完必做 -->
+      <div class="pbox b">
+        <h3>领表三步走（顺序不可颠倒）</h3>
+        <div class="step">
+          <i style="background:var(--cB)">1</i>
+          <div><div class="t">系统状态须为「已审核」</div>
+            <div class="d">先查就业管理系统内「预毕业申请」，未通过要找导师审核</div></div>
+        </div>
+        <div class="step s2"><i>2</i>
+          <div><div class="t">导师同意毕业并提交</div>
+            <div class="d">状态更新后方可发推荐表</div></div>
+        </div>
+        <div class="step s2"><i>3</i>
+          <div><div class="t">现场审核领取</div>
+            <div class="d">A 座 4 层 401-1 房间东北角，找就业部副部长 <b>任文浩</b>；周四 11:30–14:30</div></div>
+        </div>
+        <h3 style="margin-top:16px">签完必做（当天）</h3>
+        <div class="chips">
+          <span class="chip g">扫描第一联（禁拍照）</span>
+          <span class="chip g">上传毕业去向</span>
+          <span class="chip g">原件交回 B308</span>
+        </div>
+        <div class="note" style="margin-top:8px">原件接收仅每周四，可由其他同学代交；违约重签需第一时间扫描新三方替换旧件。</div>
+      </div>
+
+      <!-- 右：硬规则 + 联系人 -->
+      <div class="pbox c">
+        <h3>六条硬规则</h3>
+        <div class="chips">
+          <span class="chip">只有周四 11:30–14:30 办</span>
+          <span class="chip">推荐表/三方各 1 份，不补</span>
+          <span class="chip">不到现场不审核</span>
+          <span class="chip">定向生不发推荐表和三方</span>
+          <span class="chip">毁约仅 1 次，截止毕业日</span>
+          <span class="chip">户口可留 2 年，逾期强制迁出</span>
+        </div>
+        <h3 style="margin-top:16px">四个联系人</h3>
+        <div class="people">
+          <div class="person"><span class="av">殷</span><div><b>殷老师</b>　教育处就业主管
+            <div class="k mono">010-82995538 · 综合楼 B308 · jyb@ime.ac.cn</div></div></div>
+          <div class="person"><span class="av">陈</span><div><b>陈老师</b>　国科大集成电路学院
+            <div class="k mono">010-69671085 · 雁栖湖学园二 283</div></div></div>
+          <div class="person"><span class="av">王</span><div><b>王老师</b>　档案转递
+            <div class="k mono">010-82995966 · B308 · wanglu@ime.ac.cn</div></div></div>
+          <div class="person"><span class="av">张</span><div><b>张老师</b>　学院档案转递
+            <div class="k mono">010-69671851 · 学园二 281</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2. 时间线 ============ -->
+<section id="timeline">
+  <div class="sec-head">
+    <h2>时间线（按月）</h2><span class="no">02</span>
+    <p>点击任意色条查看该阶段的任务、材料与办理地点</p>
+  </div>
+
+  <div class="card tl-wrap">
+    <div class="tl">
+      <div class="tl-months" id="tlMonths"></div>
+      <div id="tlRows"></div>
+    </div>
+    <div class="tl-foot">
+      <span class="lg"><i style="background:#1b4b8f"></i>阶段 A · 信息填报</span>
+      <span class="lg"><i style="background:#0d7a57"></i>阶段 B · 申领与签约</span>
+      <span class="lg"><i style="background:#b0620a"></i>阶段 C · 毕业与派遣</span>
+      <span class="lg"><i style="background:#6b3fa0"></i>阶段 D · 入职与户档</span>
+      <span class="lg"><i style="background:#c9d5e6"></i>斜纹 = 跨期持续事项</span>
+      <span class="lg">▸ 右端三角 = 有硬截止</span>
+    </div>
+    <div class="tl-now-tip" id="tlNowTip"></div>
+  </div>
+</section>
+
+<!-- ============ 3. 方向详情 ============ -->
+<section id="directions">
+  <div class="sec-head">
+    <h2>不同方向的详情与注意事项</h2><span class="no">03</span>
+    <p>点击卡片展开；红色底为雷区，绿色底为可省事的通路</p>
+  </div>
+  <div class="dir-grid" id="dirGrid"></div>
+</section>
+
+<!-- ============ 4. 任务清单 ============ -->
+<section id="tasks">
+  <div class="sec-head">
+    <h2>任务清单</h2><span class="no">04</span>
+    <p>勾选状态保存在本机浏览器，可导出为 Markdown 待办</p>
+  </div>
+  <div class="card">
+    <div class="tk-top">
+      <div class="ring" id="ring" style="--p:0"><i id="ringTxt">0%</i></div>
+      <div class="tt"><b id="tkCount">0 / 0 已完成</b><div id="tkHint">先做带「截止」标记的三项</div></div>
+      <div class="tk-actions">
+        <button class="btn" id="btnExport">导出清单</button>
+        <button class="btn" id="btnReset">重置</button>
+      </div>
+    </div>
+    <div id="tkBody"></div>
+  </div>
+</section>
+
+<!-- ============ 5. 表格模板 ============ -->
+<section id="forms">
+  <div class="sec-head">
+    <h2>表格填写模板</h2><span class="no">05</span>
+    <p>字段已按文档口径预填，可直接改后打印；蓝色字为可改内容</p>
+  </div>
+  <div class="card">
+    <div class="fm-tabs" id="fmTabs">
+      <button class="on" data-fm="f1">① 就业推荐表</button>
+      <button data-fm="f2">② 就业协议书（三方）</button>
+      <button data-fm="f3">③ 接收函 / 落户与入站</button>
+      <button data-fm="f4">④ 毁约材料清单</button>
+      <button class="btn primary" id="btnPrint" style="margin-left:auto">打印 / 存 PDF</button>
+    </div>
+    <div class="fm-body" id="fmBody"><!-- injected --></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div><b>数据来源</b>：金山文档《中国科学院微电子研究所 27 届教育处学籍毕业生就业攻略》<span class="mono">kdocs.cn/l/cbSIy0A2HC9A</span>，全文 15 节，末次更新 2026-11-02。本页为整理件，不替代原文与群通知。</div>
+  <div><b>原文两处需留意</b>：①第五节「本批次自 <span class="mono">2027 年 10 月 22 日</span> 开始」与第四节「申请自 2026 年 10 月 22 日开始」矛盾，按上下文应为 2026 年，领取仍以群通知为准；②第四节标题写「三方协议」申请，正文第三条同指三方，含义一致。</div>
+  <div><b>推断标注</b>：时间线中带「推断」标签的行（秋招高峰、春招补录、毕业派遣）为常规节奏推演，文档未明示，仅作排期参考。</div>
+  <div style="margin-top:8px">整理时间 2026-11-17 · 生成于本机工作区</div>
+</footer>
+
+<!-- drawer -->
+<div class="mask" id="mask"></div>
+<aside class="drawer" id="drawer">
+  <div class="drawer-h"><b>关键时间节点</b><span class="note">按今日倒计时</span><button class="x" id="drawerX">×</button></div>
+  <div class="drawer-b" id="drawerB"></div>
+</aside>
+
+<!-- modal -->
+<div class="modal" id="modal">
+  <div class="box">
+    <div class="mh"><div class="bar2" id="mBar"></div><div><b id="mTitle"></b><span id="mSub"></span></div>
+      <button class="x" id="mX">×</button></div>
+    <div class="mb" id="mBody"></div>
+  </div>
+</div>
+
+<script>
+"use strict";
+/* ================= 基础数据 ================= */
+const TODAY = new Date();                        // 打开时的真实日期，倒计时随之刷新
+const NOWKEY = TODAY.getFullYear() + "-" + String(TODAY.getMonth() + 1).padStart(2, "0");
+const MONTHS = (() => {
+  const a = []; let y = 2026, m = 9;
+  while (y < 2028) { a.push(y + "-" + String(m).padStart(2, "0")); m++; if (m > 12) { m = 1; y++; } }
+  return a;
+})();
+const MN = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
+
+/* 时间线行：s/e 为月份键，含端点 */
+const ROWS = [
+  { g:"A", color:"a", name:"预毕业信息填报（含定向生）", s:"2026-09", e:"2026-12", hard:"2026-12-27 截止",
+    detail:{
+      sub:"2026-09-20 开始 · 2026-12-27 截止 · 系统内提交",
+      tasks:["登录就业管理系统，填写预毕业信息（定向生同样必填）","确认预计毕业时间落在 20270101–20271231 区间","提交后请导师在系统内审核"],
+      mats:["学籍信息、身份证号、生源地、联系方式（本人及家庭）","定向生另需按定向招生协议核对原定向单位信息"],
+      place:"线上办理；审核问题联系导师，或邮件 jyb@ime.ac.cn",
+      warn:["审核状态未变「已审核」时，推荐表一律不发","12-27 为硬截止，逾期影响后续两个环节"]
+    }},
+  { g:"A", color:"a", name:"导师审核 / 毕业提交", s:"2026-10", e:"2026-12", inf:true, hard:"",
+    detail:{
+      sub:"预毕业提交后即可催办，不必等截止",
+      tasks:["导师在系统内点击审核通过","导师确认同意毕业并提交"],
+      mats:["无纸件；需与导师当面对齐毕业时间"],
+      place:"线上 + 导师办公室",
+      warn:["文档明确：先看「预毕业申请」是否为已审核，未通过才可联系导师，避免空跑现场"]
+    }},
+  { g:"B", color:"b", name:"就业推荐表申领", s:"2026-10", e:"2027-06", hard:"2026-10-22 起开放",
+    detail:{
+      sub:"2026-10-22 开始填写 · 定向生除外",
+      tasks:["在系统内填写申领信息并提交（有无签约意向均可）","按模板填写纸质推荐表","周四到 A 座 401-1 现场审核领取"],
+      mats:["申领信息（线上）","纸质推荐表（个人信息 / 学校推荐意见 / 回执）","彩色复印件若干（复印空白件给用人单位）"],
+      place:"A 座 4 层 401-1 房间东北角 · 任文浩 · 周四 11:30–14:30",
+      warn:["仅 1 份，不补；先领空白彩色复印件投递，确定落户再填原件","回执联：单位不需要时，自己补全后连同三方第一联交回存档"]
+    }},
+  { g:"B", color:"b", name:"三方协议申领与签约", s:"2026-10", e:"2027-06", hard:"2026-10-22 起开放",
+    detail:{
+      sub:"2026-10-22 开始 · 附件必须是录用通知",
+      tasks:["系统内提交申请，上传录用通知（邮件截图 / 书面通知扫描件）","预毕业审核通过 + 填报签约信息并提交","周四现场审核，领取三方"],
+      mats:["录用通知电子件","签约信息（单位名称、行业、性质、档案与户口地址）","学生证 / 身份证（现场核验）"],
+      place:"A 座 401-1（领取）· 原件交回 B308",
+      warn:["不到现场不会被审核","每人仅 1 份，不可能同时两份；签约务必谨慎","单位信息（行业、性质）须据实填进就业系统"]
+    }},
+  { g:"B", color:"b", name:"秋招签约高峰", s:"2026-09", e:"2026-12", inf:true, hard:"",
+    detail:{
+      sub:"文档未明示，按校招常规节奏推演",
+      tasks:["集中投递与面试","拿到 offer 后尽早走三方流程，避免与 12-27 预毕业截止撞车","同步准备选调报名材料"],
+      mats:["简历、成绩单、推荐表彩色复印件、获奖与奖助佐证"],
+      place:"线上投递 + 各单位笔试面试",
+      warn:["此段为排期推演，与文档节点无直接对应关系"]
+    }},
+  { g:"B", color:"b", name:"现场办理窗口（每周四）", s:"2026-10", e:"2027-06", dur:true, hard:"每周四 11:30–14:30",
+    detail:{
+      sub:"全流程唯一的线下窗口，遇冲突以群通知改期为准",
+      tasks:["领取推荐表 / 三方","交回三方第一联原件","选调材料盖章（D 座 614）","上海落户表签字、博士后入站表盖章（B308）"],
+      mats:["按当次事项各自准备；代办须先邮件申请并附委托书"],
+      place:"A 座 401-1（任文浩）· B308（殷老师）· D 座 614 东区 71 号工位（王世朋）",
+      warn:["午休时间请勿打扰；无特殊事由不允许代办","工作冲突会在就业工作群通知改期，务必盯群"]
+    }},
+  { g:"C", color:"c", name:"春招补录 / 选调与公考", s:"2027-01", e:"2027-04", inf:true, hard:"",
+    detail:{
+      sub:"文档未明示时段，按选调与春招常规节奏推演",
+      tasks:["选调 / 公考报名，准备奖助佐证材料","OA 下载「微电子所党委印章使用审批单」并四级签审","教育处盖章：D 座 614 房间 71 号工位 王世朋（周四）"],
+      mats:["奖助佐证（纸质原件或复印件）","党委印章使用审批单（党支部书记→教育处→纪监审办公室→党委办公室）","报名表、现实表现鉴定所需信息"],
+      place:"D 座 6 层东区 614 · 周四 11:30–14:30",
+      warn:["院系党组织意见盖研发中心党支部章；支部无章则盖研究所党委章","签章时须一并提供奖助佐证，缺件会被退回"]
+    }},
+  { g:"C", color:"c", name:"毕业去向 / 户档信息填报", s:"2027-03", e:"2027-06", hard:"",
+    detail:{
+      sub:"所有预计下一年度毕业生均需填报",
+      tasks:["选择毕业去向类型并上传附件","填写户口迁移与档案去向","核对辅导员姓名与电话"],
+      mats:["三方第一联扫描件 / 劳动合同 3 页 / 博士后进站材料 / 录取通知 / 定向培养协议书"],
+      place:"就业管理系统线上",
+      warn:["劳动合同就业需上传首页、双方信息页、签字签章页共 3 张","户档未迁入国科大集体户的，统一选「未迁入」或「迁回生源地」","辅导员填现研发中心（学院）辅导员，不是教育处就业主管"]
+    }},
+  { g:"C", color:"c", name:"上海落户 / 博士后入站", s:"2027-04", e:"2027-06", hard:"",
+    detail:{
+      sub:"两条独立小流程，均落在每周四窗口",
+      tasks:["上海落户：个人信息表「成绩」栏到 B307 找教学主管李老师签字盖章 → 雁栖湖教务处盖章","上海落户：「就业」栏周四到 B308 找殷老师签字 → 中关村就业指导中心盖章","博士后入站：审批表周四到 B308 签字盖教育处章"],
+      mats:["2027 年非上海生源应届普通高校毕业生个人信息表","博士后入站审批表"],
+      place:"B307（李老师）· B308（殷老师）· 雁栖湖教务处 · 中关村就业指导中心",
+      warn:["两栏签章顺序不能颠倒，成绩栏先于就业栏","入站表也可签字后到中关村国科大就业指导中心盖章"]
+    }},
+  { g:"C", color:"c", name:"毕业 / 档案与户口迁出", s:"2027-06", e:"2027-08", hard:"2027-06 毕业",
+    detail:{
+      sub:"毕业时间 2027 年 6 月；档案户口随之转出",
+      tasks:["SEP 网上办事大厅—户籍办—户籍业务申请，提交后到户籍办领材料","持材料到中关村派出所办户口迁移证","确认档案转递地址（升学 / 单位 / 生源地）"],
+      mats:["户籍业务申请（线上）","迁出材料、接收函（京内单位集体户需接收函或京籍户口本首页+个人信息页）"],
+      place:"国科大户籍办（中关村东路 80 号，青年公寓东平房最北侧）· 张丁轩 010-82640433",
+      warn:["毕业后只办与就业、落户相关的户籍手续","户籍办最多保留 2 年，逾期公安按生源地强制迁出"]
+    }},
+  { g:"D", color:"d", name:"入职报到 / 政审背调", s:"2027-07", e:"2027-10", hard:"",
+    detail:{
+      sub:"入职前后单位常要求现实表现材料或政审",
+      tasks:["向单位提交现实表现材料需求","外单位来所政审须提前一周预约，来访 2 人以上持介绍信","接待地点 A109 会议室或 B309 谈话室"],
+      mats:["介绍信（抬头：中国科学院微电子研究所）","单位政审函 / 背调授权"],
+      place:"教育处出具鉴定意见；接待 A109 / B309",
+      warn:["现实表现鉴定由教育处综合导师、辅导员、宿管员、学生干部、室友评价后出具","企业背调适用同一办法，不另开口子"]
+    }},
+  { g:"D", color:"d", name:"领取窗口（原文口径 2027-10）", s:"2027-10", e:"2027-10", tagText:"原文口径", hard:"",
+    detail:{
+      sub:"文档第五节原文如此，与第四节 2026-10-22 冲突",
+      tasks:["按原文理解为下一批次领取起点","实际操作以就业工作群通知与现场窗口为准"],
+      mats:["同「现场办理窗口」"],
+      place:"A 座 401-1",
+      warn:["原文写「本批次自 2027 年 10 月 22 日开始，仅每周四办理」，与第四节「2026 年 10 月 22 日开始」矛盾，疑为年份笔误"]
+    }}
+];
+
+/* 方向详情 */
+const DIRS = [
+  { ic:"🤝", bg:"#e8f0fa", c:"#1b4b8f", t:"三方就业（主流路径）", s:"签就业协议形式就业 · 系统内已领三方者默认此类",
+    flow:["预毕业已审核","申请三方","现场领取","单位盖章","扫描上传+交回"],
+    rows:[["适用","签约正式用人单位、需走派遣与档案转递的同学（定向生除外）"],
+          ["材料","录用通知（截图/扫描）、签约信息、三方原件一式三联"],
+          ["时限","2026-10-22 起随时申请；领取与交回仅每周四 11:30–14:30"],
+          ["地点","领取 A 座 4F 401-1（任文浩）｜交回 B308"]],
+    ok:"系统内已领取三方的，毕业去向自动认定「签就业协议形式就业」，不必另选。",
+    warn:["三方与推荐表各仅 1 份、概不补发；毁约换发需交回旧件","不到现场不会审核；无特殊事由不允许代办","签约后当天扫描第一联（禁拍照）并上传，原件交回 B308"] },
+
+  { ic:"📄", bg:"#e6f5ef", c:"#0d7a57", t:"劳动合同就业", s:"不走三方，直接与单位签劳动合同",
+    rows:[["适用","单位不签三方、只签劳动合同，或非应届派遣序列的岗位"],
+          ["材料","劳动合同首页 + 双方信息页 + 签字签章页，共 3 张"],
+          ["时限","毕业去向填报期内（随系统开放）"],
+          ["地点","就业管理系统线上提交"]],
+    ok:"三页必须齐全，缺页会被退回重传。",
+    warn:["毕业去向类型选「签劳动合同形式就业」，不要错选三方","户口与档案地址仍要在户档模块单独填报"] },
+
+  { ic:"🎯", bg:"#f1ecfa", c:"#6b3fa0", t:"定向生", s:"按定向招生协议回原单位",
+    rows:[["适用","定向招生、少数民族骨干计划等"],
+          ["材料","与用人单位签订的定向培养协议书（上传附件）"],
+          ["时限","预毕业填报同样必填，且纳入 2026-12-27 截止"],
+          ["地点","线上填报"]],
+    ok:"毕业去向选「签就业协议形式就业」，附件传定向培养协议书即可。",
+    warn:["定向生不领取就业推荐表，也不领取三方协议","少数民族骨干计划毕业生派遣回定向地区单位","不要按普通流程去 401-1 排队领表"] },
+
+  { ic:"🏛️", bg:"#fdf2e3", c:"#b0620a", t:"选调 / 公务员", s:"报名签章 + 政审 + 现实表现鉴定",
+    flow:["OA 下载审批单","党支部书记","教育处","纪监审","党委办公室"],
+    rows:[["适用","报考选调生、公务员、事业单位等需组织推荐或政审的岗位"],
+          ["材料","奖助佐证（纸质原件或复印件）、党委印章使用审批单、报名表"],
+          ["时限","报名与签章集中在春招季；盖章仅每周四 11:30–14:30"],
+          ["地点","D 座 6 层东区 614 房间 71 号工位（就业部部长 王世朋）"]],
+    ok:"院系党组织意见：盖研发中心党支部印章；支部无印章的，盖研究所党委印章。",
+    warn:["签章时须一并提供奖助佐证材料，缺件退回","审批单必须按 党支部书记 → 教育处 → 纪监审办公室 → 党委办公室 顺序签审，跳序无效","入职政审：外单位来所需提前一周预约，2 人以上持介绍信，接待 A109 或 B309"] },
+
+  { ic:"🔬", bg:"#e8f0fa", c:"#1b4b8f", t:"博士后入站", s:"毕业去向选「博士后入站」",
+    rows:[["适用","毕业后进入流动站 / 工作站，含本所入站"],
+          ["材料","博士后入站审批表；本所入站另需接收函"],
+          ["时限","随毕业季办理，表可周四现场签"],
+          ["地点","B308（殷老师）；或签字后到中关村国科大就业指导中心盖章"]],
+    ok:"系统内博士后入站的接收函抬头写「中国科学院微电子研究所」，盖微电子所人事处印章。",
+    warn:["抬头写错（如「中国科学院大学微电子研究所」）不具法律效力，会被驳回","入站表与上海落户表都在同一窗口办理，可一次办完"] },
+
+  { ic:"🌏", bg:"#e6f5ef", c:"#0d7a57", t:"出国 / 出境 / 升学", s:"毕业去向的独立选项",
+    rows:[["适用","赴中国大陆以外地区留学或务工；或升入其他培养单位"],
+          ["材料","录取通知 / 邀请函等去向证明（按系统提示上传）"],
+          ["时限","毕业去向填报期内"],
+          ["地点","线上填报；户口按「迁回生源地」处理"]],
+    ok:"户口未迁入国科大集体户的，统一选「未迁入」或填「迁回生源地」。",
+    warn:["户口已迁入集体户的，须迁回生源地或就业单位，不能悬空","档案去向要与接收单位确认后再提交，提交后修改需走审批"] },
+
+  { ic:"🏙️", bg:"#fdf2e3", c:"#b0620a", t:"上海落户", s:"非上海生源应届毕业生个人信息表",
+    rows:[["适用","签约单位在上海、需办落户的同学"],
+          ["材料","2027 年非上海生源应届普通高校毕业生个人信息表"],
+          ["时限","毕业前办结，两处签章均在工作日/周四窗口"],
+          ["地点","B307（教学主管李老师）→ 雁栖湖教务处；B308（殷老师）→ 中关村就业指导中心"]],
+    ok:"「就业」栏也可直接去国科大请学生处就业指导中心张姝老师签字盖章，少跑一趟。",
+    warn:["「成绩」栏必须先盖完教育处章与教务处章，再办「就业」栏","两个栏目分属不同部门，不要在同一窗口反复排队"] },
+
+  { ic:"📍", bg:"#eef3fb", c:"#1b4b8f", t:"盖章地点速查", s:"所内 4 处 + 国科大 3 处，走错就要重排一周",
+    rows:[["领表 / 交表","A 座 4 层 401-1 房间东北角 · 任文浩 · 周四 11:30–14:30"],
+          ["三方原件回收 · 签章","B308 · 殷老师 010-82995538 · 周四 11:30–14:30"],
+          ["选调党组织意见","D 座 6 层东区 614 房间 71 号工位 · 王世朋 · 周四"],
+          ["上海落户成绩栏","B307 · 教学主管李老师（先所内、后雁栖湖教务处）"],
+          ["国科大就业指导中心","中关村东路 80 号青年公寓东平房 107 室对面 · 张姝 010-82640675 · 8:30–11:30 / 13:30–16:30"],
+          ["国科大党委组织部","怀柔雁栖湖东路 1 号西区办公楼 411 室 · 吕国娜 010-69671043 · 8:30–11:30 / 13:30–16:30"],
+          ["户籍办","中关村东路 80 号青年公寓东平房最北侧 · 张丁轩 010-82640433"]],
+    ok:"所内事项一次跑完的顺序：401-1 领表 → 单位盖章 → B308 交回；同一天可顺路去 B307 / 614。",
+    warn:["国科大两个部门中午休息，盖章只在 8:30–11:30 与 13:30–16:30","所内窗口中午 11:30–14:30 才办（与国科大作息相反），别按同一套时间去","档案转递找王老师（B308）或张老师（学园二 281），不要跑到就业指导中心"] },
+
+  { ic:"⚠️", bg:"#fbe9ea", c:"#b4232a", t:"毁约与改派", s:"原则上不同意；确有需求仅限一次",
+    rows:[["适用","已签三方后需更换单位"],
+          ["材料","原单位解约函（纸质原件）、三方第一联、新单位接收函"],
+          ["时限","截止学生毕业之日；每周四现场审核"],
+          ["地点","B308 现场审核后换发新三方"]],
+    ok:"系统内填「解约手续办理」，理由要具体充分；获准后交回旧件、领新三方。",
+    warn:["仅限一次，绝无第二次；会影响培养单位声誉与后续学生就业","解约函抬头必须是「中国科学院微电子研究所」或「中国科学院大学」，「中国科学院大学微电子研究所」等写法一律驳回","解约函必须纸质原件，彩打无效；新单位录用函需正反面打印","交回清单：原三方一式三联原件 + 解约函原件 + 新单位录用函"] }
+];
+
+/* 任务清单 */
+const TASKS = [
+  { g:"2026 年 9–10 月｜开局与资格", items:[
+    {t:"把就业工作群昵称改为「姓名+研发中心」", m:"未改会被清理出群，群是唯一通知渠道", due:"尽快", key:true},
+    {t:"通读《就业攻略》全文一遍", m:"文档要求；疑问走邮件 jyb@ime.ac.cn，群内不答疑", due:"尽快"},
+    {t:"完成预毕业信息填报（定向生同样必填）", m:"2026-09-20 开放，2026-12-27 截止", due:"2026-12-27", key:true},
+    {t:"催导师在系统内审核通过预毕业申请", m:"状态须为「已审核」，否则不发推荐表", due:"随提交"},
+    {t:"复印空白就业推荐表（彩色，若干份）", m:"投递用复印件，原件留到确定落户再填", due:"投递前"}
+  ]},
+  { g:"2026 年 10–12 月｜申领与签约", items:[
+    {t:"系统内填写就业推荐表申领信息并提交", m:"2026-10-22 开放；有无签约意向均可填", due:"2026-10-22 起", key:true},
+    {t:"系统内提交三方协议申请，上传录用通知", m:"附件须为邮件截图或书面通知扫描件", due:"2026-10-22 起"},
+    {t:"周四 11:30–14:30 到 A 座 401-1 现场领表", m:"找任文浩；无特殊事由不允许代办", due:"每周四"},
+    {t:"签约后当天扫描三方第一联（禁拍照）", m:"高清扫描件便于后期打印与开证明", due:"签约当日", key:true},
+    {t:"把三方第一联扫描件上传到「毕业去向」", m:"违约重签需第一时间用新件替换旧件", due:"签约当日"},
+    {t:"原件交回 B308 回收（周四，可代交）", m:"仅每周四接收", due:"周四"},
+    {t:"确认预毕业填报已在 12-27 前完成", m:"逾期影响推荐表与三方两个环节", due:"2026-12-27", key:true}
+  ]},
+  { g:"2027 年 1–4 月｜补录与选调", items:[
+    {t:"春招补录投递；关注选调 / 公考公告", m:"此段为常规节奏推演，文档未明示", due:"—"},
+    {t:"OA 下载「微电子所党委印章使用审批单」", m:"用于选调报名等需党组织意见的材料", due:"报名期"},
+    {t:"按顺序完成四级签审", m:"党支部书记 → 教育处 → 纪监审办公室 → 党委办公室", due:"周四"},
+    {t:"D 座 614（71 号工位）找王世朋盖教育处意见", m:"须同时带奖助佐证材料", due:"周四", key:true},
+    {t:"选调 / 公考资格材料与奖助佐证归档", m:"纸质原件或复印件，签章时一并提交", due:"报名期"}
+  ]},
+  { g:"2027 年 4–6 月｜落户、入站与毕业", items:[
+    {t:"补全毕业去向与户档信息", m:"定向生填原定向单位；劳动合同需 3 页附件", due:"系统开放期内"},
+    {t:"上海落户：成绩栏 B307 李老师 → 雁栖湖教务处", m:"成绩栏先办", due:"毕业前"},
+    {t:"上海落户：就业栏 B308 殷老师 → 中关村就业指导中心", m:"可改去国科大找张姝老师", due:"毕业前"},
+    {t:"博士后入站审批表周四到 B308 盖章", m:"也可签字后到中关村就业指导中心盖章", due:"周四"},
+    {t:"领取 / 开具接收函（抬头按系统内外区分）", m:"系统外→国科大+就业中心章；系统内→微电子所+人事处章", due:"毕业前"},
+    {t:"如需毁约：本周四前备齐三样材料", m:"解约函原件 + 三方第一联 + 新单位接收函；仅限一次", due:"2027-06"}
+  ]},
+  { g:"2027 年 6–9 月｜派遣与入职", items:[
+    {t:"SEP 网上办事大厅提交户籍业务申请", m:"户籍办—户籍业务申请", due:"2027-06"},
+    {t:"到户籍办领材料，再去中关村派出所办迁移证", m:"国科大户籍办：中关村东路 80 号", due:"2027-06 起"},
+    {t:"确认档案转递地址并跟踪到档", m:"王老师 010-82995966；张老师 010-69671851", due:"2027-07"},
+    {t:"入职后如需政审 / 背调：提前一周预约", m:"来访 2 人以上持介绍信，接待 A109 或 B309", due:"按单位要求"},
+    {t:"户口迁出办结（最长保留 2 年）", m:"逾期公安按生源地强制迁出", due:"2029-06 前", key:true}
+  ]}
+];
+
+/* 关键节点 */
+const KEYNODES = [
+  { d:"2026-09-20", t:"预毕业信息填报开放", p:"含定向生；系统内提交", },
+  { d:"2026-10-22", t:"推荐表 / 三方申请开放", p:"两表同日开放；三方附件须为录用通知" },
+  { d:"2026-12-27", t:"预毕业填报截止", p:"硬截止，逾期影响后续全部环节", urgent:true },
+  { d:"2027-06-30", t:"毕业 / 毁约办理截止", p:"毕业时间 2027-06；解约截止毕业之日" },
+  { d:"2027-10-22", t:"领取窗口（原文口径）", p:"原文写 2027-10-22 起，仅每周四办理", soft:true }
+];
+
+/* ================= 工具 ================= */
+const $ = s => document.querySelector(s);
+const $$ = s => Array.from(document.querySelectorAll(s));
+const mIdx = k => MONTHS.indexOf(k);
+function daysTo(ds){ const [y,m,d] = ds.split("-").map(Number); return Math.round((new Date(y,m-1,d) - TODAY)/86400000); }
+
+/* ================= 时间线 ================= */
+function buildTimeline(){
+  const mh = $("#tlMonths");
+  mh.innerHTML = '<div class="tl-year">阶段 / 月份</div>' + MONTHS.map((k,i) => {
+    const [y,m] = k.split("-");
+    const isQ = m === "01" || m === "07";
+    const isNow = (k === NOWKEY);
+    return '<div class="m' + (isQ?" q":"") + (isNow?" now":"") + '">' + (m==="01" ? y+"·1月" : MN[+m-1]) + '</div>';
+  }).join("");
+
+  const rows = $("#tlRows");
+  rows.innerHTML = ROWS.map((r,ri) => {
+    const s = mIdx(r.s), e = mIdx(r.e);
+    if (s < 0 || e < 0) return "";
+    const cls = "bar " + r.color + (r.dur ? " hatch" : "");
+    const label = r.tagText ? '<span class="tag inf">' + r.tagText + '</span>'
+                 : (r.hard && !r.inf) ? '<span class="tag">' + r.hard.replace(/^2026-|^2027-/,"") + '</span>'
+                 : (r.inf ? '<span class="tag inf">推断</span>' : "");
+    return '<div class="tl-row">' +
+      '<div class="tl-label">' + r.name + label + '</div>' +
+      '<div class="' + cls + '" data-row="' + ri + '" style="grid-column:' + (s+2) + ' / ' + (e+3) + '" title="点击查看详情">' +
+        (e - s >= 2 ? '<span>' + (r.dur ? "每周四" : "详情") + '</span>' : '') +
+        (r.hard && !r.inf ? '<i class="milestone"></i>' : '') +
+      '</div></div>';
+  }).join("");
+
+  rows.querySelectorAll(".bar").forEach(b => b.addEventListener("click", () => openRow(+b.dataset.row)));
+
+  const inRange = MONTHS.indexOf(NOWKEY) >= 0;
+  $("#tlNowTip").innerHTML = '当前定位：<b>' + TODAY.getFullYear() + ' 年 ' + (TODAY.getMonth() + 1) + ' 月</b>' +
+    (inRange ? '' : '（已超出本图 2026-09—2027-12 区间，红色竖线不再显示）') + ' · ' +
+    '必办：<b style="color:var(--red)">预毕业填报 12-27 截止</b>、每周四 11:30–14:30 现场窗口、签约后当天扫描上传。' +
+    '色条宽度代表持续月份，不代表工作量；斜纹条为每周重复事项。';
+}
+
+function openRow(i){
+  const r = ROWS[i], d = r.detail;
+  const colorMap = { a:"#1b4b8f", b:"#0d7a57", c:"#b0620a", d:"#6b3fa0" };
+  $("#mBar").style.background = colorMap[r.color];
+  $("#mTitle").innerHTML = r.name + (r.inf ? '<span class="badge">推断</span>' : '');
+  $("#mSub").textContent = d.sub;
+  let h = "";
+  h += "<h4>该阶段要做的事</h4><ul>" + d.tasks.map(t => "<li>" + t + "</li>").join("") + "</ul>";
+  h += "<h4>需要准备的材料</h4><ul>" + d.mats.map(t => "<li>" + t + "</li>").join("") + "</ul>";
+  h += "<h4>办理地点 / 时间</h4><ul><li>" + d.place + "</li></ul>";
+  if (d.warn && d.warn.length) h += "<h4>注意事项</h4><ul>" + d.warn.map(t => "<li>" + t + "</li>").join("") + "</ul>";
+  h += '<div class="src">依据：原文第 四 / 五 / 六 / 七 / 十二 / 十四 / 十五 节' + (r.inf ? "；本行时段为推演，原文未明示" : "") + '</div>';
+  $("#mBody").innerHTML = h;
+  $("#modal").classList.add("on");
+}
+
+/* ================= 方向卡片 ================= */
+function buildDirs(){
+  $("#dirGrid").innerHTML = DIRS.map((d,i) => {
+    const rows = d.rows.map(r => "<dt>" + r[0] + "</dt><dd>" + r[1] + "</dd>").join("");
+    const flow = d.flow ? '<div class="flow">' + d.flow.map(f => "<span>" + f + "</span>").join("") + "</div>" : "";
+    return '<div class="card dir" data-i="' + i + '">' +
+      '<div class="dir-h"><div class="ic" style="background:' + d.bg + ';color:' + d.c + '">' + d.ic + '</div>' +
+      '<div class="tt"><b>' + d.t + '</b><span>' + d.s + '</span></div><div class="cv">▼</div></div>' +
+      '<div class="dir-b">' + flow + '<dl>' + rows + '</dl>' +
+      (d.ok ? '<div class="warn ok"><b>省事通路</b>：' + d.ok + '</div>' : "") +
+      '<div class="warn"><b>雷区</b>：<br>' + d.warn.map(w => "· " + w).join("<br>") + '</div></div></div>';
+  }).join("");
+  $$(".dir-h").forEach(h => h.addEventListener("click", () => h.parentElement.classList.toggle("open")));
+  const first = $(".dir");
+  if (first) first.classList.add("open");
+}
+
+/* ================= 任务清单 ================= */
+const LS_KEY = "ime2027-tasks-v1";
+let done = {};
+try { done = JSON.parse(localStorage.getItem(LS_KEY) || "{}"); } catch(e) { done = {}; }
+
+function buildTasks(){
+  let idx = 0;
+  $("#tkBody").innerHTML = TASKS.map(g => {
+    const items = g.items.map(it => {
+      const id = "t" + (idx++);
+      const hot = /截止|当日|12-27/.test(it.due);
+      return '<label class="tk-item' + (done[id]?" done":"") + (it.key?" key":"") + '" data-id="' + id + '">' +
+        '<input type="checkbox" ' + (done[id]?"checked":"") + '>' +
+        '<span><span class="tx">' + it.t + '</span><span class="mt">' + it.m + '</span></span>' +
+        '<span class="due' + (hot?" hot":"") + '">' + it.due + '</span></label>';
+    }).join("");
+    return '<div class="tk-group"><div class="tk-gh"><b>' + g.g + '</b><span class="ln"></span></div>' + items + '</div>';
+  }).join("");
+  $$(".tk-item input").forEach(cb => cb.addEventListener("change", e => {
+    const box = e.target.closest(".tk-item");
+    const id = box.dataset.id;
+    if (e.target.checked) { done[id] = 1; box.classList.add("done"); }
+    else { delete done[id]; box.classList.remove("done"); }
+    localStorage.setItem(LS_KEY, JSON.stringify(done));
+    updateRing();
+  }));
+  updateRing();
+}
+
+function updateRing(){
+  const all = $$(".tk-item").length;
+  const n = $$(".tk-item input:checked").length;
+  const p = all ? Math.round(n / all * 100) : 0;
+  const ring = $("#ring");
+  ring.style.setProperty("--p", p);
+  $("#ringTxt").textContent = p + "%";
+  $("#tkCount").textContent = n + " / " + all + " 已完成";
+  $("#tkHint").textContent = n === 0 ? "先做带红色截止标记的三项" :
+    (p < 40 ? "预毕业与推荐表是当前主线" : p < 80 ? "进入签约与户档阶段" : "收尾：档案、户口、报到");
+}
+
+/* ================= 表格模板 ================= */
+const FORMS = {
+  f1: { title:"北京地区普通高校毕业生就业推荐表", sub:"研究生用表 · 仅个人信息与学校推荐意见两栏需按此填",
+    blocks:[
+      { h:"个人信息", rows:[["毕业学校","中国科学院大学",1],["院　系","中科院微电子所教育处",1],
+        ["专　业","集成电路工程",0],["学　历","硕士研究生",0],["学　位","工学硕士",0],
+        ["培养方式","非定向（全日制）",1],["毕业时间","2027 年 6 月",1],
+        ["生源地","省 + 市 + 县（与父母户口簿首页一致）",0],["政治面貌","中共党员",0],
+        ["身份证号","",0],["联系电话","",0],["电子邮箱","",0]]},
+      { h:"学校推荐意见", rows:[["毕业生培养方式","非定向（全日制）",1],["就业范围","全国",1],
+        ["学校就业部门名称","中科院微电子所教育处",1],["联 系 人","殷老师",1],["联系电话","010-82995538",1],
+        ["落款日期","企业盖章后收到三方当日（等企业盖章后再签名）",1]]}
+    ],
+    notes:[
+      {k:"用法", v:"找工作投递用<b>彩色复印件</b>（复印空白表），确定落户后再填写原件交人社部门办落户。"},
+      {k:"回执联", v:"单位不需要的，学生补全回执内容后，连同三方协议第一联一起交回存档。"},
+      {k:"改单位", v:"违约改毕业去向的，直接在原件上删旧单位信息、写新单位，无需重领。"},
+      {k:"雷区", v:"原件有涂改，须到国科大毕业生就业指导中心在涂改处补盖章，否则无效。", cls:"hd"}
+    ]},
+
+  f2: { title:"北京地区普通高校毕业生就业协议书（三方）", sub:"毕业生基本情况 + 培养单位基本情况两栏按此填",
+    blocks:[
+      { h:"毕业生基本情况", rows:[["毕业学校","中国科学院大学",1],["院　系","中科院微电子所教育处",1],
+        ["专　业","集成电路工程",0],["学　历","硕士研究生",0],["毕业时间","2027 年 6 月",1],
+        ["培养方式","非定向",1],["身份证号","",0],["联系电话","",0]]},
+      { h:"用人单位基本情况", rows:[["单位名称","（据实填写，与公章一致）",0],
+        ["单位行业","（务必据实填报，与就业系统一致）",0],["单位性质","（务必据实填报，与就业系统一致）",0],
+        ["户口迁入地址","可空缺，以就业系统户档模块为准",1],["档案转寄地址","可空缺，以就业系统户档模块为准",1],
+        ["用人单位意见","盖章 + 日期",0]]},
+      { h:"培养单位基本情况（固定值）", rows:[["单位名称","中科院微电子所教育处",1],["联 系 人","殷老师",1],
+        ["联系电话","010-82995538",1],["通讯地址","北京市朝阳区北土城西路 3 号",1],["邮 编","100029",1],
+        ["培养单位意见","教育处盖章 + 日期",0]]}
+    ],
+    notes:[
+      {k:"份数", v:"每人仅 1 份、概不补发；签约后第一联交回 B308 存档，其余两联自己与单位留存。"},
+      {k:"系统", v:"单位行业、性质必须与就业系统内填写一致，否则户档模块校验不过。"},
+      {k:"雷区", v:"三方不到现场不会被审核；涂改处须到国科大就业指导中心补盖章。", cls:"hd"}
+    ]},
+
+  f3: { title:"接收函 · 上海落户 · 博士后入站", sub:"三张表各有固定抬头与盖章单位，抬头写错即驳回",
+    blocks:[
+      { h:"接收函抬头选择", rows:[["科学院系统外就业","抬头：中国科学院大学；盖章：国科大就业指导中心",1],
+        ["科学院系统内（含本所博后）","抬头：中国科学院微电子研究所；盖章：微电子所人事处",1],
+        ["禁止写法","「中国科学院大学微电子研究所」等一律无效",0]]},
+      { h:"上海落户 · 个人信息表", rows:[["表名","2027 年非上海生源应届普通高校毕业生个人信息表",1],
+        ["成绩栏","B307 找教学主管李老师签字 + 教育处章 → 国科大雁栖湖校区教务处盖章",1],
+        ["就业栏","周四到 B308 找殷老师签字 → 国科大中关村校区就业指导中心盖章",1],
+        ["替代路径","就业栏可直接去国科大找学生处就业指导中心张姝老师签字盖章",1]]},
+      { h:"博士后入站审批表", rows:[["办理","周四到 B308 现场签字，盖研究所教育处印章",1],
+        ["替代路径","签字后到中关村国科大就业指导中心盖章",1]]}
+    ],
+    notes:[
+      {k:"顺序", v:"上海落户必须<b>先成绩栏、后就业栏</b>，两栏分属不同部门。"},
+      {k:"窗口", v:"B308 与 401-1 均只在周四 11:30–14:30 办公，午休时间请勿打扰。", cls:"hd"}
+    ]},
+
+  f4: { title:"毁约 / 解约材料清单", sub:"原则上不同意；确有需求仅限一次，截止毕业之日",
+    blocks:[
+      { h:"系统内提交", rows:[["操作","就业管理系统 → 解约手续办理，填写更改毕业去向的理由",1],
+        ["理由要求","具体、充分（在解约页面填写，不另附纸）",1],
+        ["上传材料","原单位解约函 + 三方协议第一联 + 新单位接收函",1]]},
+      { h:"现场交回（每周四 B308）", rows:[["材料 1","原就业协议书（一式三联，原件）",1],
+        ["材料 2","原签约单位解约函（纸质原件，彩打无效）",1],
+        ["材料 3","新单位录用函（正反面打印）",1],
+        ["抬头要求","解约函抬头须为「中国科学院微电子研究所」或「中国科学院大学」",1]]}
+    ],
+    notes:[
+      {k:"上限", v:"准予更改毕业去向<b>仅限一次</b>，绝无第二次；办理截止学生毕业之日。"},
+      {k:"后果", v:"毁约影响培养单位声誉与后续同学就业，文档明确「原则上不同意」。", cls:"hd"}
+    ]}
+};
+
+let curForm = "f1";
+function buildForms(){
+  const f = FORMS[curForm];
+  let h = '<div class="fm-pane on"><div class="fsheet">' +
+    '<div class="fsheet-h"><b>' + f.title + '</b><div>' + f.sub + '</div></div>';
+  f.blocks.forEach(b => {
+    h += '<div class="fsec">' + b.h + '</div>';
+    b.rows.forEach(r => {
+      const cls = r[2] ? "fixed" : "";
+      h += '<div class="frow"><div class="k">' + r[0] + '</div><div class="v">' +
+        '<input class="' + cls + '" value="' + String(r[1]).replace(/"/g,"&quot;") + '"></div></div>';
+    });
+  });
+  h += '</div><div class="fnote">' + f.notes.map(n =>
+    '<div class="' + (n.cls||"") + '"><b>' + n.k + '</b>：' + n.v + '</div>').join("") + '</div>' +
+    '<div class="fm-tip">提示：灰底白字为固定值（照抄），白底蓝字为需本人确认的项；可直接在此修改后打印。</div></div>';
+  $("#fmBody").innerHTML = h;
+}
+
+/* ================= 关键节点抽屉 ================= */
+function nextThursday(){
+  const d = new Date(TODAY);
+  const add = (4 - d.getDay() + 7) % 7 || 7;
+  d.setDate(d.getDate() + add);
+  return d;
+}
+function buildDrawer(){
+  const nt = nextThursday();
+  const ntStr = nt.getFullYear() + "-" + String(nt.getMonth()+1).padStart(2,"0") + "-" + String(nt.getDate()).padStart(2,"0");
+  let list = KEYNODES.map(k => {
+    const n = daysTo(k.d);
+    const [y,m,d] = k.d.split("-");
+    const cd = n > 0 ? '<span class="cd' + (n<=45?" hot":"") + '">剩 ' + n + ' 天</span>'
+            : n === 0 ? '<span class="cd hot">今天</span>'
+            : '<span class="cd past">已过 ' + (-n) + ' 天</span>';
+    return '<div class="kn' + (k.urgent?" urgent":"") + '"><div class="d"><b>' + m + "-" + d + '</b><span>' + y + '</span></div>' +
+      '<div class="c"><b>' + k.t + '</b><p>' + k.p + '</p>' + cd + (k.soft?' <span class="cd past">口径待核</span>':'') + '</div></div>';
+  }).join("");
+
+  list += '<div class="kn"><div class="d"><b>周四</b><span>每周</span></div><div class="c">' +
+    '<b>现场办理窗口 11:30–14:30</b><p>A 座 4F 401-1（领表/交表）· B308（交回/签章）· D 座 614（选调盖章）</p>' +
+    '<span class="cd">最近一次：' + ntStr + '</span></div></div>';
+
+  list += '<div class="kn"><div class="d"><b>06-30</b><span>2029</span></div><div class="c">' +
+    '<b>户籍保留到期（最长 2 年）</b><p>逾期由公安按生源地强制迁出</p>' +
+    '<span class="cd">' + (daysTo("2029-06-30") > 0 ? "剩 " + daysTo("2029-06-30") + " 天" : "已过") + '</span></div></div>';
+
+  $("#drawerB").innerHTML = list;
+  $("#knBadge").textContent = KEYNODES.length;
+}
+
+/* ================= 交互 ================= */
+function openDrawer(){ $("#drawer").classList.add("on"); $("#mask").classList.add("on"); }
+function closeAll(){
+  $("#drawer").classList.remove("on"); $("#mask").classList.remove("on");
+  $("#modal").classList.remove("on");
+}
+
+$("#knBtn").addEventListener("click", openDrawer);
+$("#drawerX").addEventListener("click", closeAll);
+$("#mask").addEventListener("click", closeAll);
+$("#mX").addEventListener("click", closeAll);
+$("#modal").addEventListener("click", e => { if (e.target.id === "modal") closeAll(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeAll(); });
+
+$$("#fmTabs button[data-fm]").forEach(b => b.addEventListener("click", () => {
+  $$("#fmTabs button").forEach(x => x.classList.remove("on"));
+  b.classList.add("on");
+  curForm = b.dataset.fm;
+  buildForms();
+}));
+
+$("#btnPrint").addEventListener("click", () => window.print());
+
+$("#btnReset").addEventListener("click", () => {
+  done = {}; localStorage.removeItem(LS_KEY);
+  $$(".tk-item input").forEach(i => i.checked = false);
+  $$(".tk-item").forEach(i => i.classList.remove("done"));
+  updateRing();
+});
+
+$("#btnExport").addEventListener("click", () => {
+  let md = "# 2027 届毕业生就业任务清单（" + new Date().toLocaleDateString("zh-CN") + "）\n\n";
+  let i = 0;
+  TASKS.forEach(g => {
+    md += "## " + g.g + "\n";
+    g.items.forEach(it => {
+      const id = "t" + (i++);
+      md += "- [" + (done[id] ? "x" : " ") + "] " + it.t + "（" + it.due + "）— " + it.m + "\n";
+    });
+    md += "\n";
+  });
+  const blob = new Blob([md], { type:"text/markdown;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "2027届就业任务清单.md";
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 3000);
+});
+
+/* 导航高亮 */
+const secs = ["overview","timeline","directions","tasks","forms"];
+window.addEventListener("scroll", () => {
+  const y = window.scrollY + 90;
+  let cur = secs[0];
+  secs.forEach(id => { const el = document.getElementById(id); if (el && el.offsetTop <= y) cur = id; });
+  $$("#tabs a").forEach(a => a.classList.toggle("on", a.getAttribute("href") === "#" + cur));
+}, { passive:true });
+
+/* ================= 初始化 ================= */
+buildTimeline();
+buildDirs();
+buildTasks();
+buildForms();
+buildDrawer();
+</script>
+</body>
+</html>
